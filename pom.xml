@@ -42,6 +42,14 @@
 		</plugins>
 	</build>
 
+	<repositories>
+		<repository>
+			<id>google-code-repository</id>
+			<name>Google Code</name>
+			<url>http://google-maven-repository.googlecode.com/svn/repository/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>com.google.inject</groupId>
@@ -56,17 +64,4 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
-	<repositories>
-		<repository>
-			<id>ibiblio-maven2-repository</id>
-			<name>ibiblio</name>
-			<url>http://repo1.maven.org/maven2</url>
-		</repository>
-		<repository>
-			<id>jboss-maven2-release-repository</id>
-			<name>JBoss</name>
-			<url>http://repository.jboss.org/maven2</url>
-		</repository>
-	</repositories>
 </project>
