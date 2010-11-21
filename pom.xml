@@ -5,7 +5,7 @@
 
 	<groupId>com.mattinsler</groupId>
 	<artifactId>guiceytools</artifactId>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>guiceytools</name>
@@ -21,7 +21,7 @@
     </licenses>
 
 	<scm>
-		<url>http://github.com/mattinsler/guiceytools/</url>
+		<url>scm:git:git@github.com:mattinsler/guiceytools.git</url>
 		<connection>scm:git:git@github.com:mattinsler/guiceytools.git</connection>
 		<developerConnection>scm:git:git@github.com:mattinsler/guiceytools.git</developerConnection>
 	</scm>
